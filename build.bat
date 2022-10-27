@@ -1,1 +1,1 @@
-ghc --make src\main.hs -o build/main.exe
+runghc src\main.hs -o build/main.exe
