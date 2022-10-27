@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(15, 20, 30);
+}
+
+.intro hr {
+    width: 100%;
+    height: 2px;
+    border-width: 0;
+    color: rgb(40, 45, 50);
+    background-color: rgb(34, 45, 61);
+}
+
+.intro pre code {
+    background: rgb(35, 45, 50);
+
+    margin-left: calc(50% - 300px);
+    width: 600px;
+
+    border-radius: 5px;
+}
+
+.intro {
+    margin-top: 32px;
+    font-family: 'Lora', serif;
+    margin-left: calc(50% - 364px);
+    width: 728px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+h1 {
+    color: rgb(133, 142, 125);
+    font-size: 42px;
+}
+
+h2 {
+    color: rgb(133, 142, 125);
+    font-size: 36px;
+}
+
+h3 {
+    color: rgb(133, 142, 125);
+    font-size: 24px;
+}
+
+p {
+    color: rgb(133, 142, 125);
+    font-size: 24px;
+}
+
+.menu-text {
+    color: #fff;
+    text-decoration: none;
+
+    margin-left: 45px;
+    margin-top : 50px;
+
+    position: absolute;
+}
+
+.navigator {
+    color: #fff;
+
+    font-size: 18px;
+    text-decoration: none;
+    
+    position: relative;
+    top:10px;
+}
+
+.small {
+    font-size: 18px;
+}
+
+#indented {
+    margin-left: 32px;
+}
+
+#embed-link {
+    color: rgb(200, 200, 255);
+    text-decoration: none;
+
+    font-size: 18px;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebar {
+    position: absolute;
+    width: 17%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    
+    background-color: rgb(03, 09, 13);
+}
+
+.button {
+    width: 30%;
+    height: 50px;
+
+    color: #fff;    
+    border-radius: 5px;
+    border-width : 0px;
+
+    font-size: 16px;
+
+    background: rgb(65, 80, 120);
+    transition: background 100ms; 
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 8px 6px -6px rgb(03, 09, 13);
+}
+
+.button:hover {
+    background: rgb(50, 70, 100);
+}
