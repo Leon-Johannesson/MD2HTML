@@ -1,3 +1,1 @@
-cd build
-main.exe
-cd..
+runghc src\main.hs -o build/main.exe
